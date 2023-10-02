@@ -22,7 +22,7 @@
     position: relative;
    }
    .background-circle {
-    background-image: url('./images_3a/bbvv.jpg');
+    background-image: url('./bbvv.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -50,10 +50,12 @@
    .lessons-practice {
     box-sizing: border-box;
     padding: 30px 20px;
+    padding-left: 60px;
     border-radius: 20px;
     background-color: var(--bg-color);
     color: whitesmoke;
     font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
     animation: appears-left var(--animation-duration-start);
    }
@@ -141,7 +143,10 @@
    
     display: flex;
    }
-   
+   .text1{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
    .section .grid .grid-item img {
     width: 50%;
     height: 50%;
@@ -151,17 +156,20 @@
    .title {
     font-size: 50px;
     color: whitesmoke;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 20px;
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    }
    
    .sub-title {
+    padding-bottom: 40px;
     width:60%;
     margin: auto;
     font-size: 15px;
     color: whitesmoke;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
    }
    
    .grid.section-2 {
