@@ -240,10 +240,12 @@
     text-align: center;
    }
 
-   .yellow{
-    width: 100%;
-    color:#f8b001;
-    position: absolute;
-    height: 100px;
-    z-index: 1;
+   .container1 {
+    background: rgb(69,81,221);
+    background: linear-gradient(0deg, rgba(69,81,221,1) 40%, rgba(248,176,1,1) 40%, rgba(248,176,1,1) 60%, rgba(69,81,221,1) 60%);
+    box-sizing: border-box;
+    width:100%;
+    margin: auto;
+    height: 735px;
+    position: relative;
    }
